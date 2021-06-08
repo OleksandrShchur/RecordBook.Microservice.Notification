@@ -16,5 +16,6 @@ namespace Notification.Db.Entities
         public string Subject { get; set; }
 
         public IList<NotificationType> NotificationType { get; set; }
+
     }
 }
