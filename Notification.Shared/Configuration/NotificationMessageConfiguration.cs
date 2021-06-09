@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Notification.Db.Entities;
+using Notification.Shared.Entities;
 
-namespace Notification.Db.Configuration
+namespace Notification.Shared.Configuration
 {
     public class NotificationMessageConfiguration : IEntityTypeConfiguration<NotificationMessage>
     {

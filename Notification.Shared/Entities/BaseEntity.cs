@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Notification.Db.Entities
+namespace Notification.Shared.Entities
 {
     public class BaseEntity
     {

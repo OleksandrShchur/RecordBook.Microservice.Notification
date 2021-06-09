@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Notification.Db.Entities
+namespace Notification.Shared.Entities
 {
-    public class NotificationMessage : BaseEntity 
+    public class NotificationMessage : BaseEntity
     {
         public Guid RecipientId { get; set; }
 
@@ -16,6 +16,5 @@ namespace Notification.Db.Entities
         public string Subject { get; set; }
 
         public IList<NotificationType> NotificationType { get; set; }
-
     }
 }

@@ -1,7 +1,7 @@
-﻿using Notification.Db.Enums;
+﻿using Notification.Shared.Enums;
 using System;
 
-namespace Notification.Db.Entities
+namespace Notification.Shared.Entities
 {
     public class NotificationType : BaseEntity
     {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Notification.Db.Entities;
+using Notification.Shared.Entities;
 using System.Reflection;
 
 namespace Notification.Db.EFCore

@@ -1,4 +1,4 @@
-﻿namespace Notification.Db.Enums
+﻿namespace Notification.Shared.Enums
 {
     public enum NotificationAccess : byte
     {
